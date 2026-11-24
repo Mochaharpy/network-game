@@ -1,0 +1,6 @@
+{
+  "$schema": "../manifest.json",
+  "name": "test game",
+  "uuid": "sodhjfiojsdio",
+  "description": "a test game to demonstrate different things"
+}

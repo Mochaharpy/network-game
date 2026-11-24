@@ -1,0 +1,10 @@
+{
+  "$schema": "../manifest.json",
+  "name": "test copy game",
+  "uuid": "sodhjfiojsdo",
+  "entrypoint": {
+    "controller": "controller.html",
+    "host": "host.html"
+  },
+  "description": "copy of test game"
+}

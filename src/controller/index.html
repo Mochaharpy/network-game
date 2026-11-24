@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controller</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      width: 100%;
+      overflow-y: hidden;
+    }
+    #game-frame {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border: 0;
+      display: none;
+    }
+    #game-frame.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <form id="name-form">
+    <input name="username" type="text" pattern="[a-zA-Z]{3,16}" required autocomplete="off">
+    <input type="submit">
+  </form>
+  <iframe id="game-frame"></iframe>
+  <script type="module" src="/src/controller/scripts/controller.ts"></script>
+</body>
+</html>
